@@ -1,0 +1,59 @@
+@import "variables";
+
+body {
+  font-family: sans-serif;
+  color: $text-color;
+
+}
+
+h1, h2, h3, h4 {
+  font-family: $headline-font;
+}
+
+p {
+  font-family: $text-font;
+}
+
+a {
+  color: $link-color;
+}
+
+#header {
+  height: $header-height;
+  background-color: $theme-color;
+
+  #main-menu {
+
+    li{
+      display: inline;
+    }
+
+    a{
+      color: $menu-item-color;
+    }
+
+  }
+  
+  #logo {
+
+  }
+}
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: $content-width;
+
+  #content {
+  }
+
+  #sidebar {
+  }
+}
+
+#footer {
+
+  height: $footer-height;
+  background-color: $ternary-color;
+
+}

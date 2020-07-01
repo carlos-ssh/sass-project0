@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  color: #222222;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", Georgia, serif;
+}
+
+p {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+a {
+  color: #f27731;
+}
+
+#header {
+  height: 60px;
+  background-color: #170a48;
+}
+
+#header #main-menu li {
+  display: inline;
+}
+
+#header #main-menu a {
+  color: white;
+}
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+#footer {
+  height: 90px;
+  background-color: #ccf962;
+}
+/*# sourceMappingURL=main.css.map */
