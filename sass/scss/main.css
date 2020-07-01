@@ -1,3 +1,8 @@
+a {
+  font-style: italic;
+  text-decoration: none;
+}
+
 body {
   font-family: sans-serif;
   color: #222222;
@@ -15,9 +20,20 @@ a {
   color: #f27731;
 }
 
+.warning-button {
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: orange;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  color: white;
+}
+
 #header {
   height: 60px;
   background-color: #170a48;
+  border-radius: 8px;
+  border: 1px solid #333;
 }
 
 #header #main-menu li {

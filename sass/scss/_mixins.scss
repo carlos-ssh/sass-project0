@@ -1,0 +1,30 @@
+@mixin warning {
+    background-color: orange;
+    color: #FFFFFF;
+  }
+  
+  @mixin large-text {
+    font{
+      size: 22px;
+      font-weight: bold;
+    }
+  }
+  
+  @mixin rounded($radius: 6px) {
+    border-radius: $radius;
+
+  }
+  
+  @mixin box($radius: 6px, $border: 1px solid #000) {
+    @include rounded($radius);
+    border: $border;
+
+  }
+  
+  @mixin fancy-links {
+    a{
+      font-style: italic;
+      text-decoration: none;
+    }
+  }
+  
